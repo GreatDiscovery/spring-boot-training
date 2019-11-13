@@ -9,5 +9,6 @@ import java.lang.reflect.Method;
 public interface Aspect {
     boolean before(Object target, Method method, Object[] args);
     boolean after(Object target, Method method, Object[] args);
+    boolean after(Object target, Method method, Object[] args, Object returnVal);
     boolean afterException(Object target, Method method, Object[] args, Throwable e);
 }

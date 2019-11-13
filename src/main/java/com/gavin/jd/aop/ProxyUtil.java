@@ -1,6 +1,7 @@
 package com.gavin.jd.aop;
 
 import com.gavin.jd.aop.aspects.Aspect;
+import com.gavin.jd.aop.proxy.ProxyFactory;
 import com.gavin.jd.core.util.ClassUtil;
 
 import java.lang.reflect.InvocationHandler;
